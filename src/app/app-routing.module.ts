@@ -1,8 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PageExampleComponent } from './components/page-example/page-example.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: 'page-example',
+    component: PageExampleComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
